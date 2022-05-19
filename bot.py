@@ -25,7 +25,7 @@ def main():  # Создаем бота и передаем ему ключ дл�
     mybot = Updater(
         settings.API_KEY,
         use_context=True,
-        # request_kwargs=PROXY,
+        #request_kwargs=PROXY,
         )
 
     dp = mybot.dispatcher # mybot has an attribut dispatcher

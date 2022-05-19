@@ -340,3 +340,10 @@ INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101d83b50>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101dd90d0>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101dd93d0>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
