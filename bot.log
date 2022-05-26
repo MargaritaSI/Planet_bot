@@ -1,39 +1,5 @@
-INFO:apscheduler.scheduler:Scheduler started
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 14, in greet_user
-    print(1/0)
-ZeroDivisionError: division by zero
-INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
-INFO:apscheduler.scheduler:Scheduler has been shut down
-INFO:root:Bot have been started
-INFO:apscheduler.scheduler:Scheduler started
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 14, in greet_user
-    print(1/0)
-ZeroDivisionError: division by zero
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 14, in greet_user
-    print(1/0)
-ZeroDivisionError: division by zero
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
@@ -44,219 +10,224 @@ INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 14, in greet_user
-    print(1/0)
-ZeroDivisionError: division by zero
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 56, in call_constellation
+    result_planet = ephem.Mars(data)
+ValueError: your date string 'mars' does not look like a year/month/day optionally followed by hours:minutes:seconds
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 20, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 47, in call_constellation
+    intro, planet, data = user_planet.lower().split(' ')
+ValueError: not enough values to unpack (expected 3, got 1)
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 20, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 47, in call_constellation
+    intro, planet, data = user_planet.lower().split(' ')
+ValueError: not enough values to unpack (expected 3, got 1)
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:root:/Planet been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:root:/Planet been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:root:/Planet been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 20, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
-ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
-Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 20, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 68, in talk_to_me
+    planet, data = user_planet.lower().split(' ')
+ValueError: too many values to unpack (expected 2)
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 22, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 68, in talk_to_me
+    planet, data = user_planet.lower().split(' ')
+ValueError: too many values to unpack (expected 2)
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
     handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
     return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 22, in talk_to_me
-    update.message.reply_text(text)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
-    result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
-    return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 364, in post
-    body=json.dumps(data).encode('utf-8'),
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
-    return _default_encoder.encode(obj)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
-    return _iterencode(o, 0)
-  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type method is not JSON serializable
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 68, in talk_to_me
+    planet, data = user_planet.lower().split(' ')
+ValueError: too many values to unpack (expected 2)
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
 ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 68, in talk_to_me
+    planet, data = user_planet.lower().split(' ')
+ValueError: too many values to unpack (expected 2)
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 59, in call_constellation
+    update.message.reply_text(f'планета {planet} {data} находится в созвездии {const}', sep='\n')
+TypeError: reply_text() got an unexpected keyword argument 'sep'
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
     httplib_response = self._make_request(conn, method, url,
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
     six.raise_from(e, None)
   File "<string>", line 2, in raise_from
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
     httplib_response = conn.getresponse()
   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1377, in getresponse
     response.begin()
@@ -275,26 +246,26 @@ ConnectionResetError: [Errno 54] Connection reset by peer
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
     resp = self._con_pool.request(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
     return self.request_encode_body(method, url, fields=fields,
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
     return self.urlopen(method, url, **extra_kw)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
     response = conn.urlopen(method, u.request_uri, **kw)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
     retries = retries.increment(method, url, error=e, _pool=self,
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
     raise six.reraise(type(error), error, _stacktrace)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 685, in reraise
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 685, in reraise
     raise value.with_traceback(tb)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
     httplib_response = self._make_request(conn, method, url,
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
     six.raise_from(e, None)
   File "<string>", line 2, in raise_from
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
     httplib_response = conn.getresponse()
   File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py", line 1377, in getresponse
     response.begin()
@@ -313,29 +284,278 @@ telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection abort
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
-    handler.handle_update(update, self, check, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
-    return self.callback(update, context)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/bot.py", line 17, in greet_user
-    update.message.reply_text('Hi, user!')
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/message.py", line 791, in reply_text
-    return self.bot.send_message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/extbot.py", line 224, in get_updates
+    updates = super().get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
     result = func(*args, **kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 522, in send_message
-    return self._message(  # type: ignore[return-value]
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 200, in _message
-    result = super()._message(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 336, in _message
-    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 3054, in get_updates
+    self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
     return self.request.post(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
     result = self._request_wrapper(
-  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/mybot/.venv/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
     raise NetworkError(f'urllib3 HTTPError {error}') from error
 telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033b6700>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033b6f40>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033b6f70>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1112: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 363, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/extbot.py", line 224, in get_updates
+    updates = super().get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 3054, in get_updates
+    self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033f6dc0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033f6670>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033f6fa0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033f6550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033ad8b0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1112: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 363, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=conn.timeout,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ConnectTimeoutError: (<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/extbot.py", line 224, in get_updates
+    updates = super().get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 3054, in get_updates
+    self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)'))
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 319, in connect
+    self.sock = ssl_wrap_socket(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/extbot.py", line 224, in get_updates
+    updates = super().get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 3054, in get_updates
+    self._post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1033f6bb0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.connectionpool.HTTPSConnectionPool object at 0x10334abb0>, 'Connect timed out. (connect timeout=5.0)')': /bot5374351208:AAGXvc6AzweunpMp6uyvvPLKfTmc6QqdLOQ/getUpdates
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 49, in call_constellation
+    update.message.reply_text(f'планета {planet} {data} in the constellation: {const}', sep='\n')
+TypeError: reply_text() got an unexpected keyword argument 'sep'
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
@@ -344,6 +564,79 @@ INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:apscheduler.scheduler:Scheduler has been shut down
 INFO:root:Bot have been started
 INFO:apscheduler.scheduler:Scheduler started
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101d83b50>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101dd90d0>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
-WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x101dd93d0>: Failed to establish a new connection: 0x01: General SOCKS server failure')': /bot5382424321:AAFxByokpt5Xoo4mUOhbTgrklP-e1LETbkI/getMe
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 28, in call_constellation
+ValueError: not enough values to unpack (expected 3, got 2)
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 45, in call_constellation
+    today = datetime.date.today()
+AttributeError: 'method_descriptor' object has no attribute 'today'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/margaritasmyslava/PycharmProjects/LP/projects/planet_bot/planet_bot.py", line 45, in call_constellation
+    data_pl = datetime.date.today()
+AttributeError: 'method_descriptor' object has no attribute 'today'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:Bot have been started
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
